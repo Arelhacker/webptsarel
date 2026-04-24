@@ -1,3 +1,8 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: Arial;
@@ -7,21 +12,21 @@ body {
 /* HEADER */
 .header {
     width: 90%;
-    margin: auto; /* diperbaiki */
+    margin: 20px auto 10px auto;
     background: #417aa8;
-    color: white; /* biar kontras */
+    color: white;
     padding: 20px;
-    
 }
 
 /* MENU */
 .menu {
     width: 90%;
-    margin: 0 auto ; /* lebih rapi */
+    margin: 0 auto 20px auto;
     background: #417aa8;
     padding: 10px;
-  
+}
 
+/* MENU LINK */
 .menu a {
     color: white;
     margin-right: 20px;
@@ -32,7 +37,7 @@ body {
 /* CONTENT */
 .content {
     width: 90%;
-    margin:  auto;
+    margin: 0 auto 20px auto;
     background: white;
     padding: 10px;
     overflow: hidden;
@@ -42,20 +47,22 @@ body {
 .kiri {
     width: 70%;
     float: left;
+    padding-right: 10px;
 }
 
 /* KANAN */
 .kanan {
     width: 30%;
     float: left;
+    padding-left: 10px;
 }
 
 /* BOX */
 .border {
     border: 2px solid #4887b9;
-    margin: 15px;
+    margin: 15px 0;
     padding: 15px;
-    
+}
 
 /* LINK */
 .undecor {
@@ -65,10 +72,9 @@ body {
 /* FOOTER */
 .footer {
     width: 90%;
-    margin: auto;
+    margin: 0 auto 20px auto;
     background: #417aa8;
     color: white;
     text-align: center;
-    padding: 10px; /* tadi kurang px */
-
+    padding: 10px;
 }

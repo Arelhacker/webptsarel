@@ -1,0 +1,69 @@
+body {
+    font-family: Arial;
+    background: #eee;
+}
+
+/* HEADER */
+.header {
+    width: 90%;
+    margin: auto;
+    background: #417aa8;
+    color: white;
+    padding: 20px;
+}
+
+/* MENU */
+.menu {
+    width: 90%;
+    margin: auto;
+    background: #417aa8;
+    padding: 10px;
+}
+
+.menu a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+/* CONTENT */
+.content {
+    width: 90%;
+    margin: auto;
+    background: white;
+    overflow: hidden; /* penting untuk float */
+}
+
+/* KIRI */
+.kiri {
+    width: 70%;
+    float: left;
+}
+
+/* KANAN */
+.kanan {
+    width: 30%;
+    float: left;
+}
+
+/* BOX */
+.border {
+    border: 2px solid #4887b9;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* LINK */
+.undecor {
+    text-decoration: none;
+}
+
+/* FOOTER */
+.footer {
+    width: 90%;
+    margin: auto;
+    background: #417aa8;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

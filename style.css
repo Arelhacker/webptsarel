@@ -7,7 +7,7 @@ body {
 /* HEADER */
 .header {
     width: 90%;
-    margin: 20px auto; /* diperbaiki */
+    margin: auto; /* diperbaiki */
     background: #417aa8;
     color: white; /* biar kontras */
     padding: 20px;
@@ -17,7 +17,7 @@ body {
 /* MENU */
 .menu {
     width: 90%;
-    margin: 0 auto 20px auto; /* lebih rapi */
+    margin: 0 auto ; /* lebih rapi */
     background: #417aa8;
     padding: 10px;
   
@@ -32,7 +32,7 @@ body {
 /* CONTENT */
 .content {
     width: 90%;
-    margin: 20px auto;
+    margin:  auto;
     background: white;
     padding: 10px;
     overflow: hidden;
@@ -65,7 +65,7 @@ body {
 /* FOOTER */
 .footer {
     width: 90%;
-    margin: 20px auto;
+    margin: auto;
     background: #417aa8;
     color: white;
     text-align: center;
